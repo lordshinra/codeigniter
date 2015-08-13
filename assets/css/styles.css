@@ -1,0 +1,132 @@
+/*
+A Bootstrap 3.1 affix sidebar template
+from http://bootply.com
+
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+ padding-top:50px;
+ margin-bottom: 60px;
+}
+
+#index{
+  background-color:#F4F4F4;
+}
+
+#logo{
+  width: 150px;
+  margin: auto;
+}
+
+#panel-heading{
+  background-color:#02B2FD;
+}
+
+.dropdown-menu{
+  background-color:#F4F4F4;
+}
+
+#master-container{
+  width: 1024px;
+  margin: auto;
+}
+
+#masthead { 
+ height:200px;
+}
+
+#masthead h1 {
+ font-size: 30px;
+ line-height: 1;
+ padding-top:20px;
+}
+
+#masthead .well {
+ margin-top:8%;
+}
+
+.table thead>tr>th{
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 50px;
+  }
+}
+
+.navbar-bright {
+ background-color:#111155;
+ color:#fff;
+}
+
+.affix-top,.affix{
+ position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+    margin-top:30px;
+    width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:5px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #2780e3;
+  text-align: center;
+  padding-top: 10px;
+  z-index: 1000;
+  color: #000000;
+}
+#footer a{
+  color: #ffffff;
+}
+
+.glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+
+.text-center th{
+   text-align: center;   
+}
+
+.logo{
+  float: left;
+}
